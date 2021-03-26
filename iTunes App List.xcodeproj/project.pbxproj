@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		563009F525C7DB4800B3C0B4 /* SoftwareSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 563009F425C7DB4800B3C0B4 /* SoftwareSearchVC.m */; };
+		563009F925C7DB5F00B3C0B4 /* SoftwareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 563009F825C7DB5F00B3C0B4 /* SoftwareTVC.m */; };
+		5646FBE625CB858A00EC0E6A /* FavoriteSoftwareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646FBE525CB858A00EC0E6A /* FavoriteSoftwareTVC.m */; };
+		5646FBEA25CB96B300EC0E6A /* SearchResultTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646FBE925CB96B300EC0E6A /* SearchResultTVC.m */; };
+		5646FBEE25CBC1F200EC0E6A /* GenreSoftwareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646FBED25CBC1F200EC0E6A /* GenreSoftwareTVC.m */; };
+		5646FBF325CBC5F900EC0E6A /* CompanySoftwareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646FBF225CBC5F900EC0E6A /* CompanySoftwareTVC.m */; };
+		5646FBF825CBCC8B00EC0E6A /* SupportedDeviceSoftwareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646FBF725CBCC8B00EC0E6A /* SupportedDeviceSoftwareTVC.m */; };
+		5646FBFC25CBDBFC00EC0E6A /* ArraySorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646FBFB25CBDBFC00EC0E6A /* ArraySorter.m */; };
+		5646FC0025CC14E900EC0E6A /* SoftwareDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646FBFF25CC14E900EC0E6A /* SoftwareDetails.m */; };
+		5646FC0C25CC16E300EC0E6A /* SoftwareDetails+CRUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646FC0B25CC16E300EC0E6A /* SoftwareDetails+CRUD.m */; };
+		564A199625C5485E00E7ACF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A199525C5485E00E7ACF0 /* AppDelegate.m */; };
+		564A199925C5485E00E7ACF0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A199825C5485E00E7ACF0 /* SceneDelegate.m */; };
+		564A199F25C5485E00E7ACF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A199D25C5485E00E7ACF0 /* Main.storyboard */; };
+		564A19A125C5487200E7ACF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564A19A025C5487200E7ACF0 /* Assets.xcassets */; };
+		564A19A425C5487200E7ACF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A19A225C5487200E7ACF0 /* LaunchScreen.storyboard */; };
+		564A19A725C5487200E7ACF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A19A625C5487200E7ACF0 /* main.m */; };
+		564A19B425C5494D00E7ACF0 /* ITunesFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A19B325C5494D00E7ACF0 /* ITunesFetcher.m */; };
+		5667643225C8DF5E00222006 /* ITunesCaching.m in Sources */ = {isa = PBXBuildFile; fileRef = 5667643125C8DF5E00222006 /* ITunesCaching.m */; };
+		56C44F8D25C94D4100BB8A0B /* SoftwareDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C44F8C25C94D4100BB8A0B /* SoftwareDetailsVC.m */; };
+		56CB6CEE25CA50670059A30B /* FilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CB6CED25CA50670059A30B /* FilePath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		563009F325C7DB4800B3C0B4 /* SoftwareSearchVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareSearchVC.h; sourceTree = "<group>"; };
+		563009F425C7DB4800B3C0B4 /* SoftwareSearchVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareSearchVC.m; sourceTree = "<group>"; };
+		563009F725C7DB5F00B3C0B4 /* SoftwareTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareTVC.h; sourceTree = "<group>"; };
+		563009F825C7DB5F00B3C0B4 /* SoftwareTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareTVC.m; sourceTree = "<group>"; };
+		5646FBE425CB858A00EC0E6A /* FavoriteSoftwareTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoriteSoftwareTVC.h; sourceTree = "<group>"; };
+		5646FBE525CB858A00EC0E6A /* FavoriteSoftwareTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteSoftwareTVC.m; sourceTree = "<group>"; };
+		5646FBE825CB96B300EC0E6A /* SearchResultTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResultTVC.h; sourceTree = "<group>"; };
+		5646FBE925CB96B300EC0E6A /* SearchResultTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResultTVC.m; sourceTree = "<group>"; };
+		5646FBEC25CBC1F200EC0E6A /* GenreSoftwareTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenreSoftwareTVC.h; sourceTree = "<group>"; };
+		5646FBED25CBC1F200EC0E6A /* GenreSoftwareTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenreSoftwareTVC.m; sourceTree = "<group>"; };
+		5646FBF125CBC5F900EC0E6A /* CompanySoftwareTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanySoftwareTVC.h; sourceTree = "<group>"; };
+		5646FBF225CBC5F900EC0E6A /* CompanySoftwareTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanySoftwareTVC.m; sourceTree = "<group>"; };
+		5646FBF625CBCC8B00EC0E6A /* SupportedDeviceSoftwareTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SupportedDeviceSoftwareTVC.h; sourceTree = "<group>"; };
+		5646FBF725CBCC8B00EC0E6A /* SupportedDeviceSoftwareTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupportedDeviceSoftwareTVC.m; sourceTree = "<group>"; };
+		5646FBFA25CBDBFC00EC0E6A /* ArraySorter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArraySorter.h; sourceTree = "<group>"; };
+		5646FBFB25CBDBFC00EC0E6A /* ArraySorter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraySorter.m; sourceTree = "<group>"; };
+		5646FBFE25CC14E900EC0E6A /* SoftwareDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareDetails.h; sourceTree = "<group>"; };
+		5646FBFF25CC14E900EC0E6A /* SoftwareDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareDetails.m; sourceTree = "<group>"; };
+		5646FC0A25CC16E300EC0E6A /* SoftwareDetails+CRUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoftwareDetails+CRUD.h"; sourceTree = "<group>"; };
+		5646FC0B25CC16E300EC0E6A /* SoftwareDetails+CRUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SoftwareDetails+CRUD.m"; sourceTree = "<group>"; };
+		564A199125C5485E00E7ACF0 /* iTunes App List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes App List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A199425C5485E00E7ACF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		564A199525C5485E00E7ACF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		564A199725C5485E00E7ACF0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		564A199825C5485E00E7ACF0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		564A199E25C5485E00E7ACF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564A19A025C5487200E7ACF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564A19A325C5487200E7ACF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		564A19A525C5487200E7ACF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564A19A625C5487200E7ACF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		564A19B225C5494D00E7ACF0 /* ITunesFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesFetcher.h; sourceTree = "<group>"; };
+		564A19B325C5494D00E7ACF0 /* ITunesFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesFetcher.m; sourceTree = "<group>"; };
+		5667643025C8DF5E00222006 /* ITunesCaching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesCaching.h; sourceTree = "<group>"; };
+		5667643125C8DF5E00222006 /* ITunesCaching.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesCaching.m; sourceTree = "<group>"; };
+		56C44F8B25C94D4100BB8A0B /* SoftwareDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareDetailsVC.h; sourceTree = "<group>"; };
+		56C44F8C25C94D4100BB8A0B /* SoftwareDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareDetailsVC.m; sourceTree = "<group>"; };
+		56CB6CEC25CA50670059A30B /* FilePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilePath.h; sourceTree = "<group>"; };
+		56CB6CED25CA50670059A30B /* FilePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilePath.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564A198E25C5485E00E7ACF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564A198825C5485E00E7ACF0 = {
+			isa = PBXGroup;
+			children = (
+				564A199325C5485E00E7ACF0 /* iTunes App List */,
+				564A199225C5485E00E7ACF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564A199225C5485E00E7ACF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564A199125C5485E00E7ACF0 /* iTunes App List.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564A199325C5485E00E7ACF0 /* iTunes App List */ = {
+			isa = PBXGroup;
+			children = (
+				564A19B025C548E000E7ACF0 /* Controller */,
+				564A19AF25C548DC00E7ACF0 /* Model */,
+				564A19AE25C548D400E7ACF0 /* View */,
+				564A199425C5485E00E7ACF0 /* AppDelegate.h */,
+				564A199525C5485E00E7ACF0 /* AppDelegate.m */,
+				564A199725C5485E00E7ACF0 /* SceneDelegate.h */,
+				564A199825C5485E00E7ACF0 /* SceneDelegate.m */,
+				564A19A025C5487200E7ACF0 /* Assets.xcassets */,
+				564A19A525C5487200E7ACF0 /* Info.plist */,
+				564A19A625C5487200E7ACF0 /* main.m */,
+			);
+			path = "iTunes App List";
+			sourceTree = "<group>";
+		};
+		564A19AE25C548D400E7ACF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				564A199D25C5485E00E7ACF0 /* Main.storyboard */,
+				564A19A225C5487200E7ACF0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		564A19AF25C548DC00E7ACF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56CB6CF125CAA4090059A30B /* Main */,
+				56CB6CF025CAA3F70059A30B /* Helper */,
+				56CB6CD025CA4EFB0059A30B /* Category */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		564A19B025C548E000E7ACF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56CB6CF425CAA4620059A30B /* ViewControllers */,
+				56CF21EC25C952C00008BFEB /* TableViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		56CB6CD025CA4EFB0059A30B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5646FC0A25CC16E300EC0E6A /* SoftwareDetails+CRUD.h */,
+				5646FC0B25CC16E300EC0E6A /* SoftwareDetails+CRUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		56CB6CF025CAA3F70059A30B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				56CB6CEC25CA50670059A30B /* FilePath.h */,
+				56CB6CED25CA50670059A30B /* FilePath.m */,
+				564A19B225C5494D00E7ACF0 /* ITunesFetcher.h */,
+				564A19B325C5494D00E7ACF0 /* ITunesFetcher.m */,
+				5667643025C8DF5E00222006 /* ITunesCaching.h */,
+				5667643125C8DF5E00222006 /* ITunesCaching.m */,
+				5646FBFA25CBDBFC00EC0E6A /* ArraySorter.h */,
+				5646FBFB25CBDBFC00EC0E6A /* ArraySorter.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		56CB6CF125CAA4090059A30B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5646FBFE25CC14E900EC0E6A /* SoftwareDetails.h */,
+				5646FBFF25CC14E900EC0E6A /* SoftwareDetails.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		56CB6CF425CAA4620059A30B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				563009F325C7DB4800B3C0B4 /* SoftwareSearchVC.h */,
+				563009F425C7DB4800B3C0B4 /* SoftwareSearchVC.m */,
+				56C44F8B25C94D4100BB8A0B /* SoftwareDetailsVC.h */,
+				56C44F8C25C94D4100BB8A0B /* SoftwareDetailsVC.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		56CF21EC25C952C00008BFEB /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				563009F725C7DB5F00B3C0B4 /* SoftwareTVC.h */,
+				563009F825C7DB5F00B3C0B4 /* SoftwareTVC.m */,
+				5646FBE425CB858A00EC0E6A /* FavoriteSoftwareTVC.h */,
+				5646FBE525CB858A00EC0E6A /* FavoriteSoftwareTVC.m */,
+				5646FBE825CB96B300EC0E6A /* SearchResultTVC.h */,
+				5646FBE925CB96B300EC0E6A /* SearchResultTVC.m */,
+				5646FBEC25CBC1F200EC0E6A /* GenreSoftwareTVC.h */,
+				5646FBED25CBC1F200EC0E6A /* GenreSoftwareTVC.m */,
+				5646FBF125CBC5F900EC0E6A /* CompanySoftwareTVC.h */,
+				5646FBF225CBC5F900EC0E6A /* CompanySoftwareTVC.m */,
+				5646FBF625CBCC8B00EC0E6A /* SupportedDeviceSoftwareTVC.h */,
+				5646FBF725CBCC8B00EC0E6A /* SupportedDeviceSoftwareTVC.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564A199025C5485E00E7ACF0 /* iTunes App List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A19AA25C5487200E7ACF0 /* Build configuration list for PBXNativeTarget "iTunes App List" */;
+			buildPhases = (
+				564A198D25C5485E00E7ACF0 /* Sources */,
+				564A198E25C5485E00E7ACF0 /* Frameworks */,
+				564A198F25C5485E00E7ACF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iTunes App List";
+			productName = "iTunes App List";
+			productReference = 564A199125C5485E00E7ACF0 /* iTunes App List.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564A198925C5485E00E7ACF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					564A199025C5485E00E7ACF0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 564A198C25C5485E00E7ACF0 /* Build configuration list for PBXProject "iTunes App List" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564A198825C5485E00E7ACF0;
+			productRefGroup = 564A199225C5485E00E7ACF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564A199025C5485E00E7ACF0 /* iTunes App List */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564A198F25C5485E00E7ACF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A19A425C5487200E7ACF0 /* LaunchScreen.storyboard in Resources */,
+				564A19A125C5487200E7ACF0 /* Assets.xcassets in Resources */,
+				564A199F25C5485E00E7ACF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564A198D25C5485E00E7ACF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5646FC0025CC14E900EC0E6A /* SoftwareDetails.m in Sources */,
+				56CB6CEE25CA50670059A30B /* FilePath.m in Sources */,
+				5646FBEE25CBC1F200EC0E6A /* GenreSoftwareTVC.m in Sources */,
+				56C44F8D25C94D4100BB8A0B /* SoftwareDetailsVC.m in Sources */,
+				563009F525C7DB4800B3C0B4 /* SoftwareSearchVC.m in Sources */,
+				5646FBE625CB858A00EC0E6A /* FavoriteSoftwareTVC.m in Sources */,
+				564A199625C5485E00E7ACF0 /* AppDelegate.m in Sources */,
+				563009F925C7DB5F00B3C0B4 /* SoftwareTVC.m in Sources */,
+				564A19A725C5487200E7ACF0 /* main.m in Sources */,
+				5667643225C8DF5E00222006 /* ITunesCaching.m in Sources */,
+				564A199925C5485E00E7ACF0 /* SceneDelegate.m in Sources */,
+				5646FBEA25CB96B300EC0E6A /* SearchResultTVC.m in Sources */,
+				5646FBFC25CBDBFC00EC0E6A /* ArraySorter.m in Sources */,
+				5646FBF825CBCC8B00EC0E6A /* SupportedDeviceSoftwareTVC.m in Sources */,
+				564A19B425C5494D00E7ACF0 /* ITunesFetcher.m in Sources */,
+				5646FC0C25CC16E300EC0E6A /* SoftwareDetails+CRUD.m in Sources */,
+				5646FBF325CBC5F900EC0E6A /* CompanySoftwareTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		564A199D25C5485E00E7ACF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564A199E25C5485E00E7ACF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		564A19A225C5487200E7ACF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564A19A325C5487200E7ACF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564A19A825C5487200E7ACF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		564A19A925C5487200E7ACF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564A19AB25C5487200E7ACF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSB3DT694V;
+				INFOPLIST_FILE = "iTunes App List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kooapps.rjlacanlale.iTunes-App-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564A19AC25C5487200E7ACF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSB3DT694V;
+				INFOPLIST_FILE = "iTunes App List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kooapps.rjlacanlale.iTunes-App-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564A198C25C5485E00E7ACF0 /* Build configuration list for PBXProject "iTunes App List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A19A825C5487200E7ACF0 /* Debug */,
+				564A19A925C5487200E7ACF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A19AA25C5487200E7ACF0 /* Build configuration list for PBXNativeTarget "iTunes App List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A19AB25C5487200E7ACF0 /* Debug */,
+				564A19AC25C5487200E7ACF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564A198925C5485E00E7ACF0 /* Project object */;
+}
